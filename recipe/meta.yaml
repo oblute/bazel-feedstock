@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/bazelbuild/bazel/archive/{{ version }}/bazel-{{ version }}-dist.zip
+  url: https://github.com/bazelbuild/{{ name }}/releases/download/{{ version }}/bazel-{{ version }}-dist.zip
   sha256: cc053d06b0019347f031b77c01870850ab2b124699cb2812a9c9362bd44bbace
   # patches:
   #   - xcode_locator.patch  # [osx]
