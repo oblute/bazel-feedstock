@@ -20,6 +20,9 @@ build:
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - unzip  # [linux]
+    - zip    # [linux]
+    - openjdk >=8,<11
   host:
     - openjdk >=8,<11
     - unzip  # [linux]
